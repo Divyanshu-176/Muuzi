@@ -49,7 +49,8 @@ Screenshots of the UI are available in the `/images` folder.
 
 Example usage in markdown:
 
-```md
+
 ![](./images/1.png)
 ![](./images/2.png)
 ![](./images/3.png)
+```md
