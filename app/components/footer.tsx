@@ -33,7 +33,7 @@ export function Footer() {
                 </svg>
               </div>
               <span className="font-display text-lg font-bold text-foreground">
-                Muzi
+                Suno
               </span>
             </a>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
@@ -66,7 +66,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            2026 Muuzi. All rights reserved.
+            2026 Suno. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {["Twitter", "Discord", "GitHub"].map((social) => (

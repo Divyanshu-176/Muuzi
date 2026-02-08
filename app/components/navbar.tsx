@@ -41,7 +41,7 @@ export function Navbar() {
             </svg>
           </div>
           <span className="font-display text-xl font-bold tracking-tight text-foreground">
-            Muuzi
+            Suno
           </span>
         </a>
 
@@ -58,8 +58,8 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          {session.status === "authenticated" && <Button variant="outline" size="sm" className="text-muted-foreground hover:text-foreground" onClick={()=>signOut()}>LogOut</Button>}
-          {session.status === "unauthenticated" && <Button variant="outline" size="sm" className="text-muted-foreground hover:text-foreground" onClick={()=>signIn()}>LogIn</Button>}
+          {session.status === "authenticated" && <Button variant="outline" size="sm" className="text-muted-foreground hover:text-foreground" onClick={()=>signOut()}>Log Out</Button>}
+          {session.status === "unauthenticated" && <Button variant="outline" size="sm" className="text-muted-foreground hover:text-foreground" onClick={()=>signIn()}>Log In</Button>}
         </div>
 
         <button

@@ -1,9 +1,18 @@
 
+import { StreamQueue } from "../components/stream-queue"
+
 
 const Dashboard = () => {
+
+  
+  
   return (
     <main>
-      <StreamQueue/>
+      
+        <StreamQueue/>
+      
+      
+      
     </main>
   )
 }
