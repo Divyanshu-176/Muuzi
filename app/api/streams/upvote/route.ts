@@ -12,7 +12,6 @@ const UpvoteSchema = z.object({
 
 export async function POST(req:NextRequest){
     const session = await getServerSession()
-    console.log("session",session)
 
     const user = await prisma.user.findFirst({
         where:{

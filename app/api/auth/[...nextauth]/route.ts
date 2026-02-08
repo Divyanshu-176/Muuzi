@@ -1,5 +1,6 @@
-import { prisma } from "@/lib/prisma";
 import NextAuth from "next-auth"
+
+import { prisma } from "@/lib/prisma";
 import GitHubProvider from "next-auth/providers/github";
 
 
@@ -10,9 +11,10 @@ const handler = NextAuth({
         clientSecret: process.env.GITHUB_SECRET as string
       })
   ],
+
+  
   callbacks:{
     async signIn(params){
-      console.log(params)
       if(!params.user.email){
         return false
       }
